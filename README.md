@@ -1,12 +1,3 @@
-```
-     __  __  __    __  ______
-    /\ \/ / /\ "-./  \/\  == \\
-    \ \  _"-\ \ \-./\ \ \  __<
-     \ \_\ \_\ \_\ \ \_\ \_____\\
-      \/_/\/_/\/_/  \/_/\/_____/    STM32L053R8 Quickstart
-```
-June 9, 2021
-
 # `STM32L053R8-quickstart-`
 
 > A template for building applications for ARM Cortex-M0+ microcontrollers especially for Nucleo-L0 board
@@ -72,7 +63,7 @@ target = "thumbv6m-none-eabi"    # Cortex-M0 and Cortex-M0+
 
 ``` console
 $ cat memory.x
-/* Linker script for the STM32F303VCT6 */
+/* Linker script for the STM32L053R8T6 */
 MEMORY
 {
   /* NOTE 1 K = 1 KiBi = 1024 bytes */

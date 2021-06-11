@@ -16,7 +16,7 @@ To build embedded programs using this template you'll need:
   targets. Run:
 
 ``` console
-$ rustup target add thumbv6m-none-eabi thumbv7m-none-eabi thumbv7em-none-eabi thumbv7em-none-eabihf
+$ rustup target add thumbv6m-none-eabi
 ```
 
 ## Using this template
@@ -34,7 +34,7 @@ programs, check [the embedded Rust book][book].
 1. Instantiate the template.
 
 ``` console
-$ cargo generate --git https://github.com/KMB-Telematics/stm32l0-quickstart
+$ cargo generate --git https://github.com/arindam-bose/Nucleo-stm32l0-quickstart
  Project Name: app
  Creating project called `app`...
  Done! New project created /tmp/app

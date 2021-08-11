@@ -9,7 +9,7 @@
             "request": "launch",
             "type": "cortex-debug",
             "cwd": "${workspaceRoot}",
-            "executable": "${workspaceFolder}/target/thumbv6m-none-eabi/debug/{{project-name}}",
+            "executable": "${workspaceFolder}/target/thumbv6m-none-eabi/release/{{project-name}}",
             "svdFile": "${workspaceFolder}/.vscode/STM32L0x3.svd",
             "device": "STM32L053R8",
             "servertype": "openocd",
